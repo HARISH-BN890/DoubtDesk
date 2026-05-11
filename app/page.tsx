@@ -135,8 +135,8 @@ export default function Home() {
           <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
         </div>
       </main>
-
-      {/* Footer */}
+{/*Here's Your Previous Footer. I have just commented it in case */}
+      {/* Footer
       <footer className="border-t border-white/5 bg-slate-950/50 py-5">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 text-slate-500">
           <div className="flex items-center gap-2">
@@ -158,7 +158,7 @@ export default function Home() {
           <div className="flex gap-6 text-sm">
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
