@@ -52,8 +52,13 @@ export default function PublicRoomsPage() {
         { headline: "You're literally", accent: "the first one here.", sub: "Pioneer energy. The ones who post first always get the most answers." },
         { headline: "What's the one thing", accent: "you've been afraid to ask?", sub: "Anonymous means nobody knows it's you. So ask the thing you'd never ask in class." },
     ];
-    const randomMessage = emptyMessages[Math.floor(Math.random() * emptyMessages.length)];
-    
+    const [randomMessage, setRandomMessage] = useState(emptyMessages[0]);
+
+    useEffect(() => {
+        setRandomMessage(
+            emptyMessages[Math.floor(Math.random() * emptyMessages.length)]
+        );
+    }, [filter, customFilter]);
 
 
     return (
