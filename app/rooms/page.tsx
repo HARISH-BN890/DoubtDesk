@@ -159,7 +159,7 @@ export default function RoomsPage() {
                                     <Home className="w-3.5 h-3.5" /> Home
                                 </Link>
                             </div>
-                            <h1 className="text-6xl font-black tracking-tighter uppercase italic">
+                            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter uppercase italic break-words">
                                 Virtual <span className="text-blue-500">Classrooms</span>
                             </h1>
                         </div>
